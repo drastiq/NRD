@@ -83,8 +83,10 @@ namespace Completed
             BoardSetup();
             InitialiseList();
             LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
-            int enemyCount = (int)Math.Log(level, 2f);
-            LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
+            int enemyCount = (int)Math.Log(level, 2f); //<<--- losowanie wzgledem poziomu
+                                                       //  int enemyCount = 5;
+                                                       // LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
+            LayoutObjectAtRandom(enemyTiles, 5,5);
             Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
 
         }

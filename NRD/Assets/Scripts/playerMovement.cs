@@ -9,10 +9,11 @@ public class playerMovement : MonoBehaviour {
     
     bool isRight = true;
 
-
+    private Animator animacja;
 
     void Start ()
     {
+        animacja = GetComponent<Animator>();
         playerRigidbody = GetComponent <Rigidbody2D> ();
 	}
 	
@@ -33,7 +34,13 @@ public class playerMovement : MonoBehaviour {
         else if (horizontal < 0 && isRight)
         {
             Flip();
+            animacja.SetTrigger("movBack");
         }
+        if (horizontal>0)
+        {
+            animacja.SetTrigger("movFront");
+        }
+
 
     }
 

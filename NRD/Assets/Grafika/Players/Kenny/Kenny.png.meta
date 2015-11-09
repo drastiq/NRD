@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: e945bc36d2c4b5e4aa36914db628f978
+timeCreated: 1447105936
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kenny_0
+    21300002: Kenny_1
+    21300004: Kenny_2
+    21300006: Kenny_3
+    21300008: Kenny_4
+    21300010: Kenny_5
+    21300012: Kenny_6
+    21300014: Kenny_7
+    21300016: Kenny_8
+    21300018: Kenny_9
+    21300020: Kenny_10
+    21300022: Kenny_11
+    21300024: Kenny_12
+    21300026: Kenny_13
+    21300028: Kenny_14
+    21300030: Kenny_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kenny_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 426
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 426
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 426
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 426
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 298
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 298
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 298
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 298
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 170
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 170
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 170
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 170
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 42
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 42
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kenny_15
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 42
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
