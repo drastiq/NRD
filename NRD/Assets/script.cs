@@ -12,4 +12,9 @@ public class script : MonoBehaviour {
 	void Update () {
 	
 	}
+    void kupa()
+    {
+        int a;
+
+    }
 }
