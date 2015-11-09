@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:NRD/Assets/Grafika/Enemies/Devil1.png.meta
 guid: 608752fb6af758a49ab25ab68478d05a
 timeCreated: 1447108715
+=======
+guid: ddbf0180d444844468dd41c0b9edcdc0
+timeCreated: 1447108696
+>>>>>>> origin/master:NRD/Assets/Grafika/Enemies/Devil1.png.meta
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
