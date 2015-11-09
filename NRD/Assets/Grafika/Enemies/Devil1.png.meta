@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:NRD/Assets/Grafika/Enemies/Devil1.png.meta
-<<<<<<< HEAD
 guid: 608752fb6af758a49ab25ab68478d05a
-timeCreated: 1447108715
-=======
-guid: bebd5d34432aa9f4ea9082ce79d67dcb
-timeCreated: 1447108889
->>>>>>> origin/master
-=======
-guid: ddbf0180d444844468dd41c0b9edcdc0
-timeCreated: 1447108696
->>>>>>> origin/master:NRD/Assets/Grafika/Enemies/Devil1.png.meta
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
@@ -36,11 +24,11 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -54,7 +42,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
