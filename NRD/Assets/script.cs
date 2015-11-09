@@ -3,13 +3,18 @@ using System.Collections;
 
 public class script : MonoBehaviour {
 
-	// Use this for initialization
+	
 	void Start () {
 	
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
 	
 	}
+
+    float Randomize(float min, float max)
+    {
+        return Random.Range(min, max);
+    }
 }
