@@ -83,7 +83,7 @@ namespace Completed
             BoardSetup();
             InitialiseList();
             LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
-            int enemyCount = (int)Math.Log(level, 2f); //<<--- losowanie wzgledem poziomu
+           // int enemyCount = (int)Math.Log(level, 2f); //<<--- losowanie wzgledem poziomu
                                                        //  int enemyCount = 5;
                                                        // LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
             LayoutObjectAtRandom(enemyTiles, 5,5);
