@@ -18,9 +18,20 @@ namespace Completed
                 maximum = max;
             }
         }
-        public int columns = 16;
-        public int rows = 20;
-        public Count wallCount = new Count(5, 9);
+
+
+
+
+
+        //  private int mapSizeX = Random.Range(64, 48);
+        //  private int mapSizeY = Random.Range(32, 18);
+  
+    
+        public Count wallCount = new Count(8, 8);
+        public Count mapY = new Count(12, 32);
+        public Count mapX = new Count(12, 32);
+        public int columns = Random.Range(5,5);
+        public int rows = Random.Range(5,5);
         public GameObject exit;
         public GameObject[] floorTiles;
         public GameObject[] wallTiles;
@@ -29,6 +40,10 @@ namespace Completed
         public GameObject[] boxTiles;
         public GameObject[] tntTiles;
         public GameObject[] outerWallTiles;
+        public GameObject player;
+        public Transform[] spawnPoint;
+        public int SpawnPointX = 1;
+        public int SpawnPointY = 1;
 
         private Transform boardHolder;
         private List<Vector3> gridPositions = new List<Vector3>();
@@ -83,11 +98,12 @@ namespace Completed
             BoardSetup();
             InitialiseList();
             LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);
-           // int enemyCount = (int)Math.Log(level, 2f); //<<--- losowanie wzgledem poziomu
+            int enemyCount = (int)Math.Log(level, 2f); //<<--- losowanie wzgledem poziomu
                                                        //  int enemyCount = 5;
                                                        // LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
             LayoutObjectAtRandom(enemyTiles, 5,5);
             Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
+            Instantiate(player);
 
         }
 
