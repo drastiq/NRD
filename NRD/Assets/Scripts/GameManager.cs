@@ -6,7 +6,7 @@ namespace Completed
     {
         public levelGenerator boardScript;
 
-        private int lvl = 2;
+        private int lvl = 5;
         void Awake()
         {
             boardScript = GetComponent<levelGenerator>();
